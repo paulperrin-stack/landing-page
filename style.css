@@ -1,0 +1,202 @@
+/* Reset/Debug (remove outline when done) */
+* {
+    /* outline: red 2px solid; */
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 20px 200px;
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+.titleHeader {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* First Section (Hero) */
+.firstSection {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 50px;
+}
+
+.firstSection .left {
+    flex: 1;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0 0 10px 0;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 0 20px 0;
+}
+
+.left button {
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.firstSection .right {
+    flex: 1;
+    max-width: 500px;
+    height: 250px;
+    background: #6c757d; /* darker placeholder gray */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Second Section (Info Cards) */
+.secondSection {
+    text-align: center;
+    padding: 50px 200px 100px;
+}
+
+.secondSection .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 160px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card p {
+    margin: 10px 0 0;
+    color: #1f2937;
+    font-size: 16px;
+}
+
+/* Third Section (Quote) */
+.thirdSection {
+    background: #e5e7eb;
+    padding: 120px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.autor {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+/* Fourth Section (Call to Action) */
+.fourthSection {
+    padding: 100px 200px;
+}
+
+.callToAction {
+    background: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 60px;
+}
+
+.textCallToAction h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.textCallToAction p {
+    margin: 5px 0 0;
+    color: #e5e7eb;
+}
+
+.buttonCallToAction {
+    cursor: pointer;
+    padding: 10px 36px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 40px 200px;
+    font-size: 14px;
+}
